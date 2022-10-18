@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online-store</title>
+	<link rel="icon" type="image/x-icon" href="assets/images/fivicon.png">
+
+	<!-- \\-- CSS only --// -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/for-responsive.css">
+
+	<!-- \\-- fonts --// -->
+	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<style>
+		p{
+			margin: 0;
+		}
+		ul{
+			text-decoration: none;
+			list-style: none;
+			margin: 0 !important;
+			padding: 0;
+
+		}
+		.announcement-bar .bar-inner .container #countdown{
+			display: flex;
+		}
+		.announcement-bar .bar-inner .container #countdown li{
+			color: #fff;
+			margin: 0 10px 0;
+			/*padding: 0 !important;*/
+		}
+		#countdown .timenumbers{
+			color: #ffff !important;
+		}
+		.btn-close {
+  			box-shadow: none !important;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="announcement-bar">
+		<div class="bar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="announcement-bar-slide">
+						<div><h1>HurryUp! Don't miss this opportunity <strong>Upto 15% off</strong></h1></div>
+						<div><h1>free ship for any orders above $200</h1></div>
+						<div>
+							<div class="d-flex justify-content-center align-items-center">
+ 								<!-- <h1>Upto 15% off</h1> -->
+
+
+								<ul id="countdown">
+								  <li><span class="days timenumbers text-white">00 </span> :
+
+								      <!-- <p class="timeRefDays timedescription">days</p> -->
+								  </li>
+								  <li><span class="hours timenumbers text-white">00 </span> :
+
+								      <!-- <p class="timeRefHours timedescription">hours</p> -->
+								  </li>
+								  <li><span class="minutes timenumbers text-white">00 </span> :
+
+								      <!-- <p class="timeRefMinutes timedescription">minutes</p> -->
+								  </li>
+								  <li><span class="seconds timenumbers text-white">00 </span>
+
+								      <!-- <p class="timeRefSeconds timedescription">seconds</p> -->
+								  </li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- header -->
+
+	<div class="main-header">
+		<div class="header-inner">
+			<div class="container">
+				<div class="row">		
+					<div class="d-flex justify-content-center align-items-center">
+						<div class="header-left">
+							<div class="navigation" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+							<i class="fa-solid fa-bars-staggered menu-bar"></i>
+								<ul>
+									<li><a href="">home</a></li>
+									<li><a href="">shop</a></li>
+									<li><a href="">men's</a></li>
+									<li><a href="">women's</a></li>
+									<li><a href="">collection's</a></li>
+									<li><a href="">contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-mdl">
+							<div class="brand-logo">
+								<a href="">
+									<img src="assets/images/header-logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="header-right">
+							<div class="header-icons d-flex justify-content-end align-items-center">
+								<div class="hicon-main">
+									<a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+									<svg class="modal__toggle-open icon icon-search" width="24" height="24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="#000" d="M1014.64 969.04L703.71 656.207c57.952-69.408 92.88-158.704 92.88-256.208c0-220.912-179.088-400-400-400s-400 179.088-400 400s179.088 400 400 400c100.368 0 192.048-37.056 262.288-98.144l310.496 312.448c12.496 12.497 32.769 12.497 45.265 0c12.48-12.496 12.48-32.752 0-45.263zM396.59 736.527c-185.856 0-336.528-150.672-336.528-336.528S210.734 63.471 396.59 63.471c185.856 0 336.528 150.672 336.528 336.528S582.446 736.527 396.59 736.527z"></path></svg>
+								</a></div>
+								<div class="hicon-main"><a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cart" aria-controls="offcanvasRight-cart">
+									<svg class="icon icon-cart" width="22" height="22" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="#000" d="m1022.74 942.64l-83.407-503.777c-7.44-65.312-66.977-118.432-132.721-118.432h-70.656v-85.28c0-130.16-92.848-236.033-222.976-236.033c-130.096 0-224.943 105.872-224.943 236.032v85.28h-76.672c-65.744 0-125.28 53.12-132.528 117.057l-77.28 504.16c-2.976 26.56 2.224 47.503 15.408 62.288c12.431 13.904 30.527 20.976 53.743 20.976h873.568c32.912 0 51.776-13.216 61.84-24.32c9.216-10.208 19.648-28.144 16.624-57.951zM352.049 235.135c0-94.848 66.127-172.031 160.943-172.031c94.816 0 158.977 77.184 158.977 172.031v85.28h-319.92zm595.119 725.311l-872.498.45c-5.504 0-11.008-2.945-9.712-10.689l77.248-504.096c3.84-33.44 35.504-61.68 69.152-61.68h76.689v72.927c-19.072 11.072-32.048 31.488-32.048 55.137c0 35.344 28.656 64 64 64s64-28.656 64-64c0-23.616-12.928-44-31.952-55.088v-72.992H671.95v72.992c-19.008 11.088-31.952 31.488-31.952 55.088c0 35.344 28.656 64 64 64s64-28.656 64-64c0-23.649-12.976-44.065-32.048-55.153v-72.927h70.656c33.664 0 65.313 28.256 69.408 63.44l83.344 503.28c.4 4.095-2.815 9.31-12.191 9.31z"></path></svg>
+								</a></div>
+								<div class="hicon-main"><a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+									<i class="fa-solid fa-gear"></i>
+								</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- for-responsive-design -->
+	<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+	  <div class="offcanvas-header">
+	    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+	    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	  </div>
+	  <div class="offcanvas-body">
+	    <p>Try scrolling the rest of the page to see this option in action.</p>
+	  </div>
+	</div>
+
+	<!-- account-menagement -->
+
+	<div class="account-menagemnt">
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+	  			<div class="account-logo"><a href=""><img src="assets/images/header-logo.png" alt=""></a></div>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				 <div class="account-nav">
+		  			<ul>
+						<li><a href="">log in</a></li>
+				  		<li><a href="">register account</a></li>
+				  		<li><a href="">check out</a></li>
+						<li><a href="">my wishlist</a></li>
+				  	</ul>
+				</div>
+				<div class="account-currency">
+					<h1 class="ac-title">
+						currency
+					</h1>
+
+					<div class="currency-box">
+						<a href="" class="active">usd</a>
+						<a href="">eur</a>
+						<a href="">gbp</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- search-bar -->
+
+		<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+		  <div class="offcanvas-header">
+		    <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+		    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		  </div>
+		  <div class="offcanvas-body">
+		    <p>this is for our accounts</p>
+		  </div>
+		</div>
+
+
+		<!-- mini-cart -->
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-cart" aria-labelledby="offcanvasRightLabel">
+			<div class="offcanvas-header">
+		    	<h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+		    	<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		  	</div>
+		  	<div class="offcanvas-body">
+		    	<h1>currently your cart is emty</h1>
+		  	</div>
+		</div>
+	<!-- /header -->
+
+	<!-- home-banner -->
+
+	<div class="home-banner">
+		<h1>hi</h1>
+	</div>
+
+
+	<!-- \\-- Js only --// -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/customfile.js"></script>
+	<script>
+		$('.announcement-bar-slide').slick({
+			dots: false,
+		  	infinite: true,
+		  	speed: 300,
+		  	slidesToShow: 1,
+		  	adaptiveHeight: true,
+		  	nav:false,
+		  	arrows:false,
+		  	autoplay:true
+		});
+	</script>	
+</body>
+</html>

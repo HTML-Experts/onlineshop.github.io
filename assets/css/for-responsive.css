@@ -1,0 +1,46 @@
+@media only screen and (max-width: 767px){
+	.main-header .header-inner .d-flex .header-left .navigation ul{
+		display: none;
+	}
+	.main-header .header-inner .d-flex .header-left .menu-bar{
+	display: block;
+	cursor: pointer;
+	}
+}
+
+
+
+/*--- maax-width: 428px ----*/
+@media only screen and (max-width: 428px){
+	.main-header .header-inner .icon {
+  		width: 17px;
+	}
+	.main-header .header-inner .d-flex .header-right .header-icons .hicon-main{
+		margin-left: 20px;
+	}
+	.main-header .header-inner .d-flex .header-right .header-icons .hicon-main  .fa-solid.fa-gear {
+  		font-size: 17px;
+  		padding-top: 10px;
+	}
+}
+
+
+	/*-- max-width: 360 ----*/
+@media only screen and (max-width: 360px){
+	.announcement-bar .bar-inner .container h1{
+		font-size: 14px;
+	}
+	.announcement-bar .bar-inner .container ul li{
+		font-size: 14px;
+		padding-bottom: 9px !important;
+	}
+	.main-header .header-inner .d-flex .header-right .header-icons .hicon-main  .fa-solid.fa-gear {
+  		font-size: 14px;
+	}
+	.main-header .header-inner .icon {
+  		width: 14px;
+	}
+	.main-header .header-inner .d-flex .header-right .header-icons .hicon-main{
+		margin-left: 14px;
+	}
+}
