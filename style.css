@@ -54,6 +54,7 @@
 	list-style: none;
 	justify-content: flex-start;
 	padding: 0;
+	flex-wrap: wrap;
 }
 .main-header .header-inner .d-flex .header-left .navigation ul li{
 	display: block;
