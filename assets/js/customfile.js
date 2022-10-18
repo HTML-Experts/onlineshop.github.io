@@ -57,7 +57,7 @@
 }) (jQuery);
 
 $("#countdown").countdown({
-      date: "18 october 2022 01:00:00",
+      date: "19 october 2022 01:00:00",
       
       format: "on"
       }, 
