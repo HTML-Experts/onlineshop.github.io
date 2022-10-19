@@ -92,9 +92,14 @@
 } 
 .main-header .header-inner .d-flex .header-mdl{
 	width: 16%;
+	margin: auto;
+}
+.main-header .header-inner .d-flex .header-mdl .brand-logo{
+	max-width: 110px;
+	width: 100%;
+	margin: auto;
 }
 .main-header .header-inner .d-flex .header-mdl .brand-logo img{
-	max-width: 150px;
 	width: 100%;
 }
 .main-header .header-inner .d-flex .header-right{
