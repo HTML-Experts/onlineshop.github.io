@@ -69,3 +69,18 @@ $("#countdown").countdown({
 
 
 
+
+// header-fixed-on-scroll
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("hader-fix").style.fontSize = "30px";
+  } else {
+    document.getElementById("hader-fix").style.fontSize = "90px";
+  }
+}
+
+
