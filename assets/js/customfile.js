@@ -57,30 +57,12 @@
 }) (jQuery);
 
 $("#countdown").countdown({
-      date: "19 october 2022 01:00:00",
+      date: "31 december 2022 01:00:00",
       
       format: "on"
       }, 
   
       function() {
        });
-
-
-
-
-
-
-// header-fixed-on-scroll
-
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("hader-fix").style.fontSize = "30px";
-  } else {
-    document.getElementById("hader-fix").style.fontSize = "90px";
-  }
-}
 
 
