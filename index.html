@@ -12,10 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="assets/css/for-responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 	<!-- \\-- fonts --// -->
-	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Freehand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	<style>
 		p{
@@ -216,10 +216,61 @@
 	<!-- home-banner -->
 
 	<div class="home-banner">
-		<img src="assets/images/home-banner-img.png" alt="">
-	</div>
-	<div class="home-banner">
-		<img src="assets/images/home-banner-img.png" alt="">
+		<div class="banner-slider">
+		  	<div>
+		  		<div class="home-banner-inner">
+		  			<img src="assets/images/bannner-2.png" alt="">
+		  			<div class="banner-contant">
+		  				<div class="container">
+		  					<div class="row">
+		  						<div class="col-lg-12 col-md-12 col-sm-12">
+		  							<h4>sale products</h4>
+		  							<h1 >get up to  50% sale</h1>
+		  							<p>Lorem Ipsum is simply dummy text of the printing</p>
+		  							<a href="" class="shop-now">shop now</a>
+		  						</div>
+		  					</div>
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div>
+		  		<div class="home-banner-inner">
+		  			<img src="assets/images/bannner-3.png" alt="">
+		  			<div class="banner-contant">
+		  				<div class="container">
+		  					<div class="row">
+		  						<div class="col-lg-12 col-md-12 col-sm-12">
+		  							<h4>sale products</h4>
+		  							<h1 >get up to  50% sale</h1>
+		  							<p>Lorem Ipsum is simply dummy text of the printing</p>
+		  							<a href="" class="shop-now">shop now</a>
+		  						</div>
+		  					</div>
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div>
+		  		<div class="home-banner-inner">
+		  			<img src="assets/images/bannner-5.png" alt="">
+		  			<div class="banner-contant">
+		  				<div class="banner-contant">
+		  				<div class="container">
+		  					<div class="row">
+		  						<div class="col-lg-12 col-md-12 col-sm-12">
+		  							<h4 class="text-white">sale products</h4>
+		  							<h1 class="text-white">get up to  50% sale</h1>
+		  							<p>Lorem Ipsum is simply dummy text of the printing</p>
+		  							<a class="text-white" href="" class="shop-now">shop now</a>
+		  						</div>
+		  					</div>
+		  				</div>
+		  			</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		</div>
 	</div>
 
 
@@ -238,6 +289,19 @@
 		  	nav:false,
 		  	arrows:false,
 		  	autoplay:true
+		});
+
+		$('.banner-slider').slick({
+			loop:false,
+			infinite: false,
+			dots: true,
+			speed: 300,
+			slidesToShow: 1,
+			adaptiveHeight: true,
+			speed:1000,
+			prevArrow:'<i class="fa-solid fa-angle-left"></i>',
+			nextArrow:'<i class="fa-solid fa-angle-right"></i>',
+			autoplay:false
 		});
 	</script>	
 </body>

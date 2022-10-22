@@ -187,7 +187,186 @@
 
 
 /*home-banner*/
-
-.home-banner img{
+.home-banner .banner-slider{
+	overflow: hidden;
+}
+.home-banner .banner-slider .home-banner-inner img{
 	width: 100%;
 }
+.home-banner .banner-slider .home-banner-inner{
+	position: relative;
+}
+.home-banner .banner-slider .home-banner-inner .banner-contant{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+
+}
+.home-banner .banner-slider .home-banner-inner .banner-contant h4{
+	font-size: 50px;
+	font-family: 'Freehand', cursive;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #000;
+	margin: 0;
+	/*display: inline;*/
+	padding-bottom: 6spx;
+}
+.home-banner .banner-slider .home-banner-inner .banner-contant h1{
+	font-size: 50px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #000;
+	margin: 0;
+	padding-bottom: 12px;
+	display: inline-block;
+}
+.home-banner .banner-slider .home-banner-inner .banner-contant p{
+	font-size: 20px;
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #4a4d4f;
+	margin: 0;
+	padding-bottom: 20px;
+}
+.home-banner .banner-slider .home-banner-inner .banner-contant a{
+	text-decoration: none;
+	color: #000;
+	text-transform: capitalize;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	border: 1px solid #4a4d4f;
+	padding: 4px 25px 8px 25px;
+	display: inline-block;
+
+}
+.home-banner .banner-slider .home-banner-inner .banner-contant a:hover{
+	background: #fff;
+	color: #000 !important;
+}
+
+
+.home-banner .banner-slider .slick-active h1{
+	animation-delay:.5s; 
+	animation-duration:1.5s; 
+	animation-fill-mode: both; 
+	animation-name: bounceIn;
+}
+.home-banner .banner-slider .slick-active h4{
+	animation-delay:1s; 
+	animation-duration:.16s; 
+	animation-fill-mode: both; 
+	animation-name: fadeInUp;	
+}
+
+.home-banner .banner-slider .slick-active p{
+	animation-delay:1.3s; 
+	animation-duration:1s; 
+	animation-fill-mode: both; 
+	animation-name: bounceInUp;	
+}
+.home-banner .banner-slider .slick-active a{
+	animation-delay:1.3s; 
+	animation-duration:.4s; 
+	animation-fill-mode: both; 
+	animation-name: fadeInBottomRight;	
+}
+
+
+
+
+
+
+
+.home-banner .banner-slider .fa-solid.fa-angle-left.slick-arrow {
+  position: absolute;
+  top: 40%;
+  left: -30px;
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all .4s ease-in-out; 
+  opacity: 0;
+  visibility: hidden;
+}
+
+.home-banner .banner-slider:hover .fa-solid.fa-angle-left.slick-arrow{
+	left: 20px;
+	opacity: 1;
+  	visibility: visible;
+}
+.home-banner .banner-slider .fa-solid.fa-angle-left.slick-arrow:hover{
+	border-color: #aaa;
+	background: #eee;
+	box-shadow: 0 0 6px -6px #eee;
+}
+.home-banner .banner-slider .fa-solid.fa-angle-right.slick-arrow {
+  position: absolute;
+  top: 40%;
+  right: -30px;
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all .4s ease-in-out; 
+  opacity: 0;
+  visibility: hidden;
+}
+
+.home-banner .banner-slider:hover .fa-solid.fa-angle-right.slick-arrow{
+	right: 20px;
+	opacity: 1;
+  	visibility: visible;
+}
+.home-banner .banner-slider .fa-solid.fa-angle-right.slick-arrow:hover{
+	border-color: #aaa;
+	background: #eee;
+	box-shadow: 0 0 6px -6px #eee;
+}
+
+.home-banner .banner-slider .slick-dots {
+  	display: flex;
+  	position: absolute;
+  	bottom: 0px;
+  	text-align: center;
+  	justify-content: center;
+  	margin: 0;
+  	padding: 16px 0;
+  	list-style: none;
+  	width: 100%;
+}
+.home-banner .banner-slider .slick-dots li{
+	margin: 0 .25rem;
+	border-radius: 50%;
+	background: #fff !important;
+}
+.home-banner .banner-slider .slick-dots button{
+	display: block;
+	width: 12px;
+	height: 12px;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	color: transparent;
+	background: #fafafa;
+	overflow: hidden;
+}
+.home-banner .banner-slider .slick-dots li.slick-active button{
+	background: tomato;
+} 
+
+
