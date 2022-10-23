@@ -252,26 +252,26 @@
 
 
 .home-banner .banner-slider .slick-active h1{
-	animation-delay:.5s; 
+	animation-delay:1s; 
 	animation-duration:1.5s; 
 	animation-fill-mode: both; 
 	animation-name: bounceIn;
 }
 .home-banner .banner-slider .slick-active h4{
-	animation-delay:1s; 
+	animation-delay:1.5s; 
 	animation-duration:.16s; 
 	animation-fill-mode: both; 
 	animation-name: fadeInUp;	
 }
 
 .home-banner .banner-slider .slick-active p{
-	animation-delay:1.3s; 
+	animation-delay:1.8s; 
 	animation-duration:1s; 
 	animation-fill-mode: both; 
 	animation-name: bounceInUp;	
 }
 .home-banner .banner-slider .slick-active a{
-	animation-delay:1.3s; 
+	animation-delay:2s; 
 	animation-duration:.4s; 
 	animation-fill-mode: both; 
 	animation-name: fadeInBottomRight;	
