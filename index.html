@@ -18,6 +18,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Freehand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	<style>
+		a{
+			text-decoration: none;
+		}
 		p{
 			margin: 0;
 		}
@@ -286,18 +289,142 @@
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<div class="nl-main-title">
-							<h2>NEWSLETTER</h2>
+							<div class="d-flex align-items-center">
+								<i class="fa-sharp fa-solid fa-envelope"></i>
+								<h2>NEWSLETTER</h2>
+							</div>
+							<p class="nl-para">Subscribe to the james mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+
+							<div class="hnl-form">
+								<form action="">
+									<input type="hidden" name="form_type" value="customer">
+									<input type="hidden" name="utf8" value="✓">
+									<input type="hidden" name="contact[tags]" value="newsletter">
+									<input type="text" value placeholder name="contact[email]" id="subscribe_email" required aria-label="Email Address" autocorrect="off" autocapitalize="off">
+									<a name="submitNewsletter" type="submit" class="hnl-bt" onclick="this.parentNode.submit(); return false;">subscribe</a>
+								</form>
+							</div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="nl-main-title">
-							<h2>FOLLOW US</h2>
+							<div class="nl-main-title">
+								<div class="d-flex align-items-center">
+									<i class="fa-solid fa-link"></i>
+									<h2>FOLLOW US</h2>
+								</div>
+								<p class="nl-para">
+									Follow james on social networks to receive updates on new arrivals, special offers and other discount information.
+								</p>
+
+								<div class="hnl-icons">
+									<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+									<a href=""><i class="fa-brands fa-twitter"></i></a>
+									<a href=""><i class="fa-brands fa-square-pinterest"></i></a>
+									<a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+									<a href=""><i class="fa-brands fa-instagram"></i></a>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer-start -->
+
+
+	<div class="footer">
+		<div class="footer-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="footer-logo">
+							<a href=""><img src="https://cdn.shopify.com/s/files/1/0036/0143/2676/files/LOGO_6d2d4a53-093e-4b58-8544-f2936b279801_120x40_crop_center.png?v=1633594361" alt=""></a>
+						</div>
+						<p class="footer-para">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+						</p>
+						<div class="footer-info">
+							<div class="inner">
+								<div class="d-flex align-items-center">
+									<i class="fa-solid fa-phone"></i>
+									<a href="" class="for-fii">+92 3185531368</a>
+								</div>
+							</div>
+
+							<div class="inner">
+								<div class="d-flex align-items-center">
+									<i class="fa-regular fa-envelope"></i>
+									<a href="" class="for-fii">qasimtech777@gmail.com</a>
+								</div>
+							</div>
+
+							<div class="inner">
+								<div class="d-flex align-items-center">
+									<i class="fa-solid fa-location-dot"></i>
+									<a class="for-coloring">No 40 Baria Sreet 133/2 NewYork City, NY, United States.</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer-main-content">
+							<h1 class="footer-title">
+								main menu
+							</h1>
+							<div class="footer-menu">
+								<ul>
+									<li class="for-dark"><a href="">home</a></li>
+									<li class="for-dark"><a href="">shop</a></li>
+									<li class="for-dark" ><a href="">men's</a></li>
+									<li class="for-dark"><a href="">women's</a></li>
+									<li class="for-dark"><a href="">collection's</a></li>
+									<li class="for-dark"><a href="">blog</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer-main-content">
+							<h1 class="footer-title">
+								my account
+							</h1>
+							<div class="footer-menu">
+								<ul>
+									<li class="for-light"><a href="">about us</a></li>
+									<li class="for-light" ><a href="">order history</a></li>
+									<li class="for-light"><a href="">returns</a></li>
+									<li class="for-light" ><a href="">custom service</a></li>
+									<li class="for-light"><a href="">term & condition</a></li>
+									<li class="for-light"><a href="">blog</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer-main-content">
+							<h1 class="footer-title">
+								contact info
+							</h1>
+							<div class="footer-menu">
+								<ul>
+									<li class="for-light"><a href="">sign</a></li>
+									<li class="for-light"><a href="">view cart</a></li>
+									<li class="for-light"><a href="">my wishlist</a></li>
+									<li class="for-light"><a href="">track my order</a></li>
+									<li class="for-light"><a href="">help</a></li>
+									<li class="for-light"><a href="">blog</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 
 
 	<!-- \\-- Js only --// -->
@@ -309,25 +436,27 @@
 		$('.announcement-bar-slide').slick({
 			dots: false,
 		  	infinite: true,
-		  	speed: 300,
+		  	speed: 2000,
 		  	slidesToShow: 1,
 		  	adaptiveHeight: true,
 		  	nav:false,
 		  	arrows:false,
-		  	autoplay:true
+		  	autoplay:true,
+		  	fade:true
 		});
 
 		$('.banner-slider').slick({
-			loop:false,
-			infinite: false,
+			loop:true,
+			infinite: true,
 			dots: true,
-			speed: 300,
 			slidesToShow: 1,
 			adaptiveHeight: true,
 			speed:1500,
+			autoplaySpeed:5000,
 			prevArrow:'<i class="fa-solid fa-angle-left"></i>',
 			nextArrow:'<i class="fa-solid fa-angle-right"></i>',
-			autoplay:false,
+			autoplay:true,
+			fade:true,
 			responsive: [
     {
       breakpoint: 1024,
