@@ -186,6 +186,109 @@
 }
 
 
+
+.offcanvas.offcanvas-start{
+	background: #f5f5f5;
+	padding: 20px;
+}
+.offcanvas.offcanvas-start .offcanvas-header{
+	justify-content: flex-end;
+}
+.offcanvas.offcanvas-star .offcanvas-body .responsive-menu ul li{
+	display: block;
+}
+.offcanvas .offcanvas-body .responsive-menu ul li a {
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #969696;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+}
+.offcanvas .offcanvas-body .responsive-menu ul li a i {
+	color: #969696;
+	/*background: #ccc;*/
+	border-radius: 50%;
+	font-size: 28px;
+	font-family: 'Barlow Condensed', sans-serif;
+	width: 20px;
+	height: 21px;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	display: inline-flex;
+}
+.offcanvas .offcanvas-body .responsive-menu ul li a:hover i{
+	color: #000
+}
+.offcanvas .offcanvas-body .responsive-menu ul li a:hover{
+	background: #eae8e8;
+	color: #000;
+}
+
+
+.offcanvas .offcanvas-body .cart-logo{
+	width: 120px;
+	margin: auto;
+}
+.offcanvas .offcanvas-body .cart-logo img{
+	width: 100%;
+	pointer-events: none;
+}
+.offcanvas .offcanvas-body .cart-title{
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #eae8e8;
+	margin: 0;
+	padding-bottom: 12px;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.offcanvas.offcanvas-top{
+	padding: 20px 45px;
+	height: 37vh;
+}
+.offcanvas.offcanvas-top .offcanvas-header{
+	display: flex;
+	justify-content: flex-end;
+}
+form.search-box input{
+	outline: none;
+	background: grey;
+}
+form.search-box input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+form.search-box button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #000;
+	color: #fffe;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
 /*home-banner*/
 .home-banner .banner-slider{
 	overflow: hidden;

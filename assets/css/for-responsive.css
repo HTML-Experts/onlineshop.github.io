@@ -22,6 +22,9 @@
 	.footer .footer-main .footer-info .inner{
 	background: rgba(0, 0, 0, 0) linear-gradient(90deg, #eae8e8 50% ,  #f5f5f5 50%) repeat scroll 0 0;
 	}
+	.footer .footer-main .footer-para{
+		text-align: center;
+	}
 
 	/*---- for-footer ----*/
 	.home-nl .nl-main .nl-main-title{

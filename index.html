@@ -147,12 +147,24 @@
 	  <div class="offcanvas-body">
 	  	<div class="responsive-menu">
 	  		<ul>
-				<li><a href="">home</a></li>
-				<li><a href="">shop</a></li>
-				<li><a href="">men's</a></li>
-				<li><a href="">women's</a></li>
-				<li><a href="">collection's</a></li>
-				<li><a href="">contact</a></li>
+				<li><a href="">home
+					<i class="fa-solid fa-plus"></i>
+				</a></li>
+				<li><a href="">shop
+					<i class="fa-solid fa-plus"></i>
+				</a></li>
+				<li><a href="">men's
+					<i class="fa-solid fa-plus"></i>
+				</a></li>
+				<li><a href="">women's
+					<i class="fa-solid fa-plus"></i>
+				</a></li>
+				<li><a href="">collection's
+					<i class="fa-solid fa-plus"></i>
+				</a></li>
+				<li><a href="">contact
+					<i class="fa-solid fa-plus"></i>
+				</a></li>
 			</ul>
 	  	</div>	
 	  </div>
@@ -163,7 +175,7 @@
 	<div class="account-menagemnt">
 		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 			<div class="offcanvas-header">
-	  			<div class="account-logo"><a href=""><img src="assets/images/header-logo.png" alt=""></a></div>
+	  			<div class="account-logo"><a href=""><img src="assets/images/cart.jpg" alt=""></a></div>
 				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 			</div>
 			<div class="offcanvas-body">
@@ -194,11 +206,13 @@
 
 		<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
 		  <div class="offcanvas-header">
-		    <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
 		    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		  </div>
 		  <div class="offcanvas-body">
-		    <p>this is for our accounts</p>
+		  	<form class="search-box" action="/action_page.php">
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
 		  </div>
 		</div>
 
@@ -207,11 +221,13 @@
 
 		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-cart" aria-labelledby="offcanvasRightLabel">
 			<div class="offcanvas-header">
-		    	<h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
 		    	<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		  	</div>
 		  	<div class="offcanvas-body">
-		    	<h1>currently your cart is emty</h1>
+		  		<div class="cart-logo">
+		  			<img src="assets/images/cart-2.png" alt="">
+		  		</div>
+		    	<h1 class="cart-title">currently your cart is empty</h1>
 		  	</div>
 		</div>
 	<!-- /header -->
@@ -307,7 +323,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
-							<div class="nl-main-title mt-sm-2">
+							<div class="nl-main-title">
 								<div class="d-flex align-items-center responsive-tab">
 									<i class="fa-solid fa-link"></i>
 									<h2>FOLLOW US</h2>
