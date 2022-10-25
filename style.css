@@ -118,14 +118,14 @@
 	display: none;
 }
 .account-menagemnt .offcanvas{
-	padding: 10px 30px !important;
+	padding: 30px 30px 0  !important;
 	width: 350px !important;
 }
 .account-menagemnt .offcanvas .offcanvas-header .account-logo a img{
-	width: 150px;
+	width: 90px;
 }
 .account-menagemnt .offcanvas .account-nav ul{
-	padding-top: 45px;
+	padding-top: 20px;
 	border-bottom: 0.01rem solid #aaaa;
 	padding-bottom: 10px;
 }
