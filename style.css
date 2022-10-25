@@ -560,7 +560,7 @@ form.search-box button {
 /*--- footer ---*/
 .footer .footer-main{
 	background: rgba(0, 0, 0, 0) linear-gradient(90deg,  #f5f5f5 50% , #eae8e8 50%) repeat scroll 0 0;
-	padding: 45px 0;
+	padding: 45px 0 0 0;
 }
 
 
@@ -651,3 +651,28 @@ form.search-box button {
 .footer .footer-main .footer-menu ul li a:hover{
 	padding-left: 10px;
 }
+
+
+.footer .footer-bottom{
+	background: #000;
+	padding: 30px 0;
+	margin: 20px 0 0 0;
+}
+.footer .copy-right-title{
+	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	margin: 0;
+}
+.footer .for-pp{
+	text-transform: capitalize;
+	text-decoration: underline;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+
+
