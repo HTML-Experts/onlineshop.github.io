@@ -721,11 +721,78 @@ form.search-box button {
 #load-more-1{
 	display: none;
 }
-
-
-
 /*----- new-arraival-sec //----------*/
 
+
+/*----- onlineinout ----*/
+
+.onlineinout {
+	margin: 45px 0;
+}
+.onlineinout .main{
+	background:linear-gradient(90deg, rgba(0,0,0,.8) 30%, rgba(0,0,0,.4) 70%) repeat scroll,url(assets/images/onlinein&out.png);
+	background-size: cover;
+}
+
+.onlineinout .main .online-inner{
+	margin: 45px 0;
+	background: #fff;
+	padding: 45px 20px;
+	text-align: center;
+}
+.onlineinout .main .online-inner h6{
+	text-transform: uppercase;
+	color: #ff5500;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	text-align: center;
+	border: 1px solid #ff5500;
+	padding: 4px 15px;
+	animation: flipInX 2000ms infinite;
+	display: inline-block;
+}
+.onlineinout .main .online-inner h5{
+	animation: flipInX 2000ms infinite;
+	text-transform: uppercase;
+	color: #ff5500;
+	font-weight: 500;
+	font-style: normal;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 28px;
+	margin: 0;
+	text-align: center;
+	padding: 4px 15px;
+}
+.onlineinout .main .online-inner h1{
+	animation: flipInX 2000ms infinite;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 42px;
+	margin: 0 0 10px 0;
+	text-align: center;
+	padding: 4px 15px;
+}
+.onlineinout .main .online-inner a{
+	text-transform: uppercase;
+	color: #ff5500;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+	border: 1px solid #ff5500;
+	padding: 4px 15px;
+	animation: flipInX 2000ms infinite;
+}
+
+/*----- onlineinout/// ----*/
 
 
 /*--- for--newsletter ----*/
