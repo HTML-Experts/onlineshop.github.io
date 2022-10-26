@@ -708,14 +708,19 @@ form.search-box button {
 	color: #fff;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-family: 700;
-	font-size: 24px;
+	font-size: 22px;
 	margin: 0;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	display: inline-block;
 	background: #000;
 	padding: 10px 30px;
 }
-
+.new-arraival-sec .load-more a:hover{
+	color: #fff;
+}
+#load-more-1{
+	display: none;
+}
 
 
 

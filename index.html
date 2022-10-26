@@ -487,9 +487,123 @@
 				</div>
 			</div>
 
+			<div id="load-more-1">
+				<div class="row for-using-padding">
+
+					<div class=" col-lg-3 col-md-3 col-sm-12">
+						<div class="main-content-sec-na">
+							<div class="main-img-sec">
+								<a href="" class="image-inner">
+									<img src="assets/images/new-arraivel-5.jpg" alt="">
+									<div class="image-effect">
+										<img src="assets/images/new-arraivel-5-copy.jpg" alt="">
+									</div>
+								</a>
+								<div class="inner-content">
+									<div class="d-flex justify-content-start align-items-center">
+										<a class="addto-cart" href="">add to cart</a>
+										<a class="addto-wishlist" href=""><i class="fa-regular fa-heart"></i></a>
+										<a class="view-detail" href=""><i class="fa-solid fa-code-compare"></i></a>
+										<a class="view-cart" href=""><i class="fa-solid fa-eye"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="content-body">
+								<h1 class="new-title"><a href="">new shoes</a></h1>
+								<div class="new-arraival-price">
+									<h3>$50.00 <span>$70.00</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class=" col-lg-3 col-md-3 col-sm-12">
+						<div class="main-content-sec-na">
+							<div class="main-img-sec">
+								<a href="" class="image-inner">
+									<img src="assets/images/new-arraivel-6.jpg" alt="">
+									<div class="image-effect">
+										<img src="assets/images/new-arraivel-6-copy.jpg" alt="">
+									</div>
+								</a>
+								<div class="inner-content">
+									<div class="d-flex justify-content-start align-items-center">
+										<a class="addto-cart" href="">add to cart</a>
+										<a class="addto-wishlist" href=""><i class="fa-regular fa-heart"></i></a>
+										<a class="view-detail" href=""><i class="fa-solid fa-code-compare"></i></a>
+										<a class="view-cart" href=""><i class="fa-solid fa-eye"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="content-body">
+								<h1 class="new-title"><a href="">new shoes</a></h1>
+								<div class="new-arraival-price">
+									<h3>$50.00 <span>$70.00</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="main-content-sec-na">
+							<div class="main-img-sec">
+								<a href="" class="image-inner">
+									<img src="assets/images/new-arraivel-7.jpg" alt="">
+									<div class="image-effect">
+										<img src="assets/images/new-arraivel-5-copy.jpg" alt="">
+									</div>
+								</a>
+								<div class="inner-content">
+									<div class="d-flex justify-content-start align-items-center">
+										<a class="addto-cart" href="">add to cart</a>
+										<a class="addto-wishlist" href=""><i class="fa-regular fa-heart"></i></a>
+										<a class="view-detail" href=""><i class="fa-solid fa-code-compare"></i></a>
+										<a class="view-cart" href=""><i class="fa-solid fa-eye"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="content-body">
+								<h1 class="new-title"><a href="">new shoes</a></h1>
+								<div class="new-arraival-price">
+									<h3>$50.00 <span>$70.00</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="main-content-sec-na">
+							<div class="main-img-sec">
+								<a href="" class="image-inner">
+									<img src="assets/images/new-arraivel-5.jpg" alt="">
+									<div class="image-effect">
+										<img src="assets/images/new-arraivel-8-copy.jpg" alt="">
+									</div>
+								</a>
+								<div class="inner-content">
+									<div class="d-flex justify-content-start align-items-center">
+										<a class="addto-cart" href="">add to cart</a>
+										<a class="addto-wishlist" href=""><i class="fa-regular fa-heart"></i></a>
+										<a class="view-detail" href=""><i class="fa-solid fa-code-compare"></i></a>
+										<a class="view-cart" href=""><i class="fa-solid fa-eye"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="content-body">
+								<h1 class="new-title"><a href="">new shoes</a></h1>
+								<div class="new-arraival-price">
+									<h3>$50.00 <span>$70.00</span></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 
 			<div class="load-more">
-				<a href="">see more product</a>
+				<a type="button" id="load-more">see more product</a>
 			</div>
 		</div>
 	</div>
@@ -719,6 +833,16 @@
     // settings: "unslick"
     // instead of a settings object
   ]
+		});
+	</script>
+
+	<script>
+		$(document).ready(function(){
+			$('#load-more').click(function(){
+				$('#load-more-1').animate({
+					height: 'toggle'
+				});
+			});
 		});
 	</script>	
 </body>
