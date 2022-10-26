@@ -475,6 +475,254 @@ form.search-box button {
 
 
 
+/*------- home-on-tra -------*/
+
+.home-on-tra{
+	padding: 45px 0;
+}
+.home-on-tra .hon-tra-img a{
+	position: relative;
+	overflow: hidden;
+	display: block;
+	transform: scale(1);
+	transition: all .6s ease-in-out;
+}
+.home-on-tra .hon-tra-img .hover-effect{
+	width: 100%;
+	overflow: hidden;
+	transform: scale(1);
+	transition: all .3s ease-in-out;
+}
+.home-on-tra .hon-tra-img .content-ht{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	transform: scale(1);
+	transition: all .3s ease-in-out;
+}
+.home-on-tra .hon-tra-img .content-ht h1{
+	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 600;
+	font-size: 26px;
+	text-align: center;
+	padding: 10px 0 11px 0;
+	margin: 0;
+	text-transform: capitalize;
+}
+.home-on-tra .hon-tra-img .content-ht .new-arraivel-title-h6{
+	background: #000;
+	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 500;
+	font-size: 17px;
+	text-align: center;
+	padding: 6px 20px 10px 20px;
+	display: inline-block;
+	margin: 0;
+	text-transform: capitalize;
+}
+.home-on-tra .hon-tra-img .content-ht .new-arraivel-title{
+	font-size: 52px;
+}
+
+.home-on-tra .hon-tra-img a:hover .hover-effect{
+	transform: scale(1.06);
+}
+.home-on-tra .hon-tra-img a:hover .content-ht{
+	transform: scale(1.06);
+}
+.home-on-tra .hna-padding{
+	margin-top: 23px;
+}
+
+
+
+
+/*----- new-arraival-sec-------------*/
+
+
+.new-arraival-sec .na-mian-title{
+	text-align: center;
+}
+
+.new-arraival-sec .na-mian-title h1{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	margin: 0;
+	text-align: center;
+}
+
+.new-arraival-sec .for-using-padding{
+	padding-top: 45px;
+}
+.new-arraival-sec .na-mian-title .na-view-all{
+	text-decoration: none;
+	color: #000;
+	text-transform: capitalize;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	text-align: center;
+	text-decoration: underline;
+}
+.new-arraival-sec .main-img-sec{
+	position: relative;
+	overflow: hidden;
+	transition: all .3s ease-in-out;
+}
+.new-arraival-sec .main-img-sec .image-inner{
+	position: relative;
+	display: block;
+}
+.new-arraival-sec .image-inner .image-effect{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	transition: all .2s ease-in-out;
+} 
+/*.new-arraival-sec .image-effect:hover{
+	opacity: 1;
+}*/
+
+
+.main-content-sec-na:hover .image-effect{
+	opacity: 1;
+}
+
+.new-arraival-sec .main-img-sec img{
+	width: 100%;
+	overflow: hidden;
+}
+.new-arraival-sec .main-img-sec .inner-content{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	transition: all .3s ease-in-out;
+}
+.new-arraival-sec .main-img-sec .inner-content a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 400;
+}
+.new-arraival-sec .main-img-sec .inner-content a.addto-cart{
+	position: absolute;
+	bottom: -30px;
+	transition: all .3s ease-in-out;
+	padding: 2px 13px;
+}
+.new-arraival-sec .main-img-sec .inner-content a.addto-wishlist {
+  position: absolute;
+  bottom: -30px;
+  left: 88px;
+  transition: all .4s ease-in-out;
+}
+.new-arraival-sec .main-img-sec .inner-content a.view-detail {
+  position: absolute;
+  bottom: -30px;
+  left: 115px;
+  transition: all .5s ease-in-out;
+}
+.new-arraival-sec .main-img-sec .inner-content a.view-cart {
+  padding: a;
+  position: absolute;
+  bottom: -30px;
+  left: 142px;
+  transition: all .6s ease-in-out;
+}
+.new-arraival-sec .main-content-sec-na{
+	/*background: #f1f0ee;*/
+	box-shadow: 0 0 0px 1px #aaaa;
+}
+.new-arraival-sec .content-body{
+	padding: 5px 20px 15px 20px;
+}
+.new-arraival-sec .content-body .new-title a{
+	color: #000;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 700;
+	font-size: 26px;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+.new-arraival-sec .content-body .new-arraival-price h3{
+	color: #000;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 700;
+	font-size: 26px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.new-arraival-sec .content-body .new-arraival-price h3 span{
+	text-decoration: line-through;
+	font-size: 17px;
+	margin-left: 10px;
+	color: #777;
+}
+.new-arraival-sec .main-img-sec .inner-content a{
+	color: #fff;
+	background: #000;
+	border-left: 0.01rem solid #aaaa;
+	padding: 2px 5px;
+}
+.new-arraival-sec .main-img-sec .inner-content a.addto-cart:hover,
+.new-arraival-sec .main-img-sec .inner-content a.addto-wishlist:hover,
+.new-arraival-sec .main-img-sec .inner-content a.view-detail:hover,
+.new-arraival-sec .main-img-sec .inner-content a.view-cart:hover{
+	background: red;
+}
+.new-arraival-sec .main-img-sec:hover .inner-content a.addto-cart,
+.new-arraival-sec .main-img-sec:hover .inner-content a.addto-wishlist,
+.new-arraival-sec .main-img-sec:hover .inner-content a.view-detail,
+.new-arraival-sec .main-img-sec:hover .inner-content a.view-cart
+{
+	bottom: 0;
+}
+
+
+
+.new-arraival-sec .load-more{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+
+}
+.new-arraival-sec .load-more a{
+	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 700;
+	font-size: 24px;
+	margin: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #000;
+	padding: 10px 30px;
+}
+
+
+
+
+/*----- new-arraival-sec //----------*/
+
+
+
 /*--- for--newsletter ----*/
 
 .home-nl{

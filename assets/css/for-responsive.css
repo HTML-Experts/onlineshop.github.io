@@ -19,6 +19,15 @@
 		font-size: 14px;
 		padding: 4px 20px;
 	}
+
+
+.home-on-tra{
+	padding-bottom: 0;
+}
+
+
+
+
 	.footer .footer-main .footer-info .inner{
 	background: rgba(0, 0, 0, 0) linear-gradient(90deg, #eae8e8 50% ,  #f5f5f5 50%) repeat scroll 0 0;
 	}
@@ -60,6 +69,18 @@
   		margin: 0px 0 10px 0;
   		padding: 10px 0 0 0;
 	}
+	.footer .copy-right-title{
+		text-align: center;
+	}
+	.footer .for-pp{
+		text-align: center;
+		padding-top: 10px;
+		justify-content: center !important;
+	}
+	.home-on-tra .for-res-margin{
+		margin-top: 23px;
+	}
+
 }
 
 
