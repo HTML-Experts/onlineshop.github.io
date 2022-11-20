@@ -15,7 +15,7 @@
 .announcement-bar .bar-inner .container h1{
 	color: #fff;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-family: 600;
+	font-weight: 600;
 	font-size: 17px;
 	text-align: center;
 	padding: 10px 0 11px 0;
@@ -1246,3 +1246,93 @@ form.search-box button {
 
 
 
+/*=== contect-page-css ===*/
+.contect-img img{
+	width: 100%;
+}
+.contect-main .contect-img{
+	position: relative;
+}
+.contect-main .contect-img .gettech{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,.7);
+	flex-direction: column;
+}
+.contect-main .contect-img .gettech h1{
+	color: #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight:700;
+	font-size: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	flex-direction: column;
+	margin: 0;
+	padding-top: 60px;
+}
+.contect-main .contect-img .gettech p{
+	margin: 0;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 22px;
+}
+.contect-main .contect-main{
+	padding: 45px 0;
+}
+.contect-main .contect-main .main-form {
+  box-shadow: 0 0 6px -3px #000;
+  margin: 0 20px 0px 20px;
+  padding: 20px;
+}
+.contect-main .contect-main .title h1{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 800;
+	font-style: normal;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	margin: 0;
+}
+
+.contect-main .contect-main form{
+	padding-top: 20px;
+}
+.contect-main .contect-main form input{
+	box-shadow: none !important;
+	border-radius: 0;
+	outline: none;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 6px 7px;
+	font-size: 12px;
+	margin: 10px 0;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
+.contect-main .contect-main form input:focus{
+	border: 0.01rem solid rgba(0,0,0,.4);
+}
+
+.contect-main .contect-main form textarea{
+	font-family: 'Barlow Condensed', sans-serif;
+	width: 100%;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 6px 7px;
+	outline: none;
+	font-size: 12px;
+	margin: 10px 0;
+}
+.contect-main .contect-main form textarea:focus{
+	border: 0.01rem solid rgba(0,0,0,.4) !important;
+}
