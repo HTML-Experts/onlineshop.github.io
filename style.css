@@ -1063,7 +1063,7 @@ form.search-box button {
 .home-nl .nl-main{
 	background: rgba(0, 0, 0, 0) linear-gradient(90deg, #eae8e8 50%, #f5f5f5 50%) repeat scroll 0 0;
 	padding: 35px 0 30px 0;
-	margin: 45px 0 0 0;
+	margin: 50px 0 0 0;
 }
 .home-nl .nl-main .nl-main-title{
 	border-top: 1px solid #cccccc;
@@ -1114,7 +1114,6 @@ form.search-box button {
 	text-decoration: none;
 	color: #fff;
 	background: #000;
-	padding: ;
 	height: 37px;
 	padding: 5px 20px;
 	margin: 0;
@@ -1247,13 +1246,16 @@ form.search-box button {
 
 
 /*=== contect-page-css ===*/
+.contect-main-page{
+	padding: 0;
+}
 .contect-img img{
 	width: 100%;
 }
-.contect-main .contect-img{
+.contect-main-page .contect-img{
 	position: relative;
 }
-.contect-main .contect-img .gettech{
+.contect-main-page .contect-img .gettech{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1265,7 +1267,7 @@ form.search-box button {
 	background: rgba(0,0,0,.7);
 	flex-direction: column;
 }
-.contect-main .contect-img .gettech h1{
+.contect-main-page .contect-img .gettech h1{
 	color: #fff;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight:700;
@@ -1277,7 +1279,7 @@ form.search-box button {
 	margin: 0;
 	padding-top: 60px;
 }
-.contect-main .contect-img .gettech p{
+.contect-main-page .contect-img .gettech p{
 	margin: 0;
 	color: #ffffff;
 	font-size: 18px;
@@ -1286,28 +1288,28 @@ form.search-box button {
 	font-style: normal;
 	line-height: 22px;
 }
-.contect-main .contect-main{
-	padding: 45px 0;
+.contect-main{
+	padding: 80px 0 0px 0;
 }
-.contect-main .contect-main .main-form {
+.contect-main .main-form {
   box-shadow: 0 0 6px -3px #000;
-  margin: 0 20px 0px 20px;
+  margin: 0 20px 0px 0px;
   padding: 20px;
 }
-.contect-main .contect-main .title h1{
+.contect-main .title h1{
 	text-transform: uppercase;
 	color: #000;
-	font-weight: 800;
+	font-weight: 700;
 	font-style: normal;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 30px;
+	font-size: 28px;
 	margin: 0;
 }
 
-.contect-main .contect-main form{
+.contect-main form{
 	padding-top: 20px;
 }
-.contect-main .contect-main form input{
+.contect-main form input{
 	box-shadow: none !important;
 	border-radius: 0;
 	outline: none;
@@ -1319,11 +1321,11 @@ form.search-box button {
 	font-family: 'Barlow Condensed', sans-serif;
 
 }
-.contect-main .contect-main form input:focus{
+.contect-main form input:focus{
 	border: 0.01rem solid rgba(0,0,0,.4);
 }
 
-.contect-main .contect-main form textarea{
+.contect-main form textarea{
 	font-family: 'Barlow Condensed', sans-serif;
 	width: 100%;
 	background: #fff;
@@ -1333,6 +1335,83 @@ form.search-box button {
 	font-size: 12px;
 	margin: 10px 0;
 }
-.contect-main .contect-main form textarea:focus{
+.contect-main form textarea:focus{
 	border: 0.01rem solid rgba(0,0,0,.4) !important;
+}
+
+.contect-main .contect-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	width: 100%;
+	height: 100%;
+  }
+.contect-main .contect-right .title{
+	color: #000;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	font-size:24px;
+	text-align: left;
+	text-transform: capitalize;
+}
+.contect-main .contect-right .forpara{
+	margin: 0;
+color: #000;
+font-size: 18px;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 22px;
+/* margin-bottom: 20px; */
+}
+
+.contect-main .contect-right .help{
+	margin-top: 20px;
+}
+.contect-main .contect-right .help a{
+	display: flex;
+	align-items: center;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-decoration: none;
+	color: #0b9ad3;
+}
+.contect-main .contect-right .help a .fa-solid{
+	color: #000;
+	font-size: 20px;
+	font-weight: 900;
+	text-decoration: none;
+	padding-bottom: 12px;
+}
+.contect-main .contect-right .help a span {
+	color: #0b9ad3;
+	text-transform: capitalize;
+	margin-left: 10px;
+	border-bottom: 0.021rem solid hsl(0, 0%, 87%);
+	display: block;
+	width: 100%;
+	padding: 0 0 15px 0;
+	text-decoration: underline;
+  }
+
+.contect-main form .col-auto{
+	margin-top: 5px;
+	width: 100%;
+}
+.contect-main form .col-auto .btn{
+	background: #000;
+	color: #ddd;
+	width: 100%;
+	border-radius: 0;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.contect-main .right-form{
+	width: 100%;
+}
+.contect-main-page .google-location{
+	/* background: #d1d1d1; */
+	padding: 45px 0 0 0;
 }
