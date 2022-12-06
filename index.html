@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Online-store</title>
 	<link rel="icon" type="image/x-icon" href="assets/images/fivicon.png">
-
+	
 	<!-- \\-- CSS only --// -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
 
 		a{
-			text-decoration: none;
+			text-decoration: none !important;
 		}
 		p{
 			margin: 0;
@@ -92,10 +92,7 @@
 			</div>
 		</div>
 	</div>
-
-
 	<!-- header -->
-
 	<div class="main-header sticky-header">
 		<div class="header-inner">
 			<div class="container">
@@ -107,9 +104,14 @@
 								<ul>
 									<li><a href="#">home</a></li>
 									<li><a href="#">shop</a></li>
-									<li><a href="#">men's</a></li>
+									<li><a href="assets/pages/mens.html">men's</a></li>
 									<li><a href="#">women's</a></li>
-									<li><a href="#">pages</a></li>
+									<li><a href="#">pages</a>
+										<ul class="page-on">
+											<li><a href="assets/pages/product.html">product page</a></li>
+											<li><a href="assets/pages/contect.html">contact</a></li>
+										</ul>
+									</li>
 									<li><a href="assets/pages/contect.html">contact</a></li>
 								</ul>
 							</div>
@@ -227,12 +229,36 @@
 			<div class="offcanvas-header">
 		    	<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		  	</div>
-		  	<div class="offcanvas-body">
+		  	<!-- <div class="offcanvas-body">
 		  		<div class="cart-logo">
 		  			<img src="assets/images/cart-2.png" alt="">
 		  		</div>
 		    	<h1 class="cart-title">currently your cart is empty</h1>
-		  	</div>
+		  	</div> -->
+
+			<div class="cart">
+
+				
+					<div class="main-content-mian">
+						<div class="mini-cart-content">
+							<div class="mini-cart-img">
+								<img src="assets/images//new-arraivel-1.jpg" alt="">
+							</div>
+							<div class="mini-cart-box">
+								<h1>sneakers</h1>
+								<span class="mini-price">$30</span>
+								<input class="mini-quintity" type="number" value="1">
+							</div>
+							<div class="mini-cart-remove">
+								<i class="fa-solid fa-trash-can caart-re"></i>
+							</div>
+						</div>	
+					</div>	
+
+				<div class="mini-total">
+					<span class="carttotal-price">$30</span>
+				</div>
+			</div>
 		</div>
 	<!-- /header -->
 
@@ -385,24 +411,24 @@
 					<div class="main-content-sec-na">
 						<div class="main-img-sec">
 							<a href="" class="image-inner">
-								<img src="assets/images/new-arraivel-5.jpg" alt="">
+								<img src="assets/images/new-arraivel-5.jpg" alt="" class="ImgSrc">
 								<div class="image-effect">
 									<img src="assets/images/new-arraivel-5-copy.jpg" alt="">
 								</div>
 							</a>
 							<div class="inner-content">
 								<div class="d-flex justify-content-start align-items-center">
-									<a class="addto-cart" href="">add to cart</a>
+									<a class="addto-cart" href="#">add to cart</a>
 									<a class="addto-wishlist" href=""><i class="fa-regular fa-heart"></i></a>
 									<a class="view-detail" href=""><i class="fa-solid fa-code-compare"></i></a>
-									<a class="view-cart" href=""><i class="fa-solid fa-eye"></i></a>
+									<a class="view-cart" href="#"><i  class="fa-solid fa-eye for-title"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="content-body">
-							<h1 class="new-title"><a href="">new shoes</a></h1>
+							<h1 class="new-title"><a href="#" class="for-jstitle">new shoes</a></h1>
 							<div class="new-arraival-price">
-								<h3>$50.00 <span>$70.00</span></h3>
+								<h3 class="maain-price">$50.00 <span>$70.00</span></h3>
 							</div>
 						</div>
 					</div>
@@ -1094,6 +1120,7 @@
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/js/customfile.js"></script>
+	<script src="assets/js/mini-cart-.js"></script>
 	<script>
 		$('.announcement-bar-slide').slick({
 			dots: false,

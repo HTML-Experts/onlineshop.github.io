@@ -3,6 +3,17 @@
 	color: #fff;
 }
 
+@media only screen and (max-width: 991px){
+	.fordisplay{
+		display: none;
+	}
+	.mens-page .fb-select .d-flex .fbsi-filter{
+		display: block;
+	}
+	.mens-page .fb-select .d-flex .fbsi-filter i{
+		font-size: 17px;
+	}
+}
 
 @media only screen and (max-width: 767px){
 	.main-header .header-inner .d-flex .header-left .navigation ul{
