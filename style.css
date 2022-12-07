@@ -2247,6 +2247,7 @@ font-weight: 500;
 	width: 250px;
 	position: relative;
 	border-right: 10px solid #e9e9ed ;
+	background: #e9e9ed;
 }
 .mens-page .fb-select select option{
 	/* color: #000;
